@@ -23,8 +23,10 @@
 }
 
 .button-add {
+    min-width: 100px;
     cursor:pointer;
     border: 1px solid black;
+    border-radius: 20px;
 }
 
 .text-historico {
@@ -49,6 +51,7 @@
     }
 
     .button-add {
+        min-width: none;
         margin-top:30px;
         max-width: 200px;
         padding:15px 30px;
@@ -69,6 +72,7 @@
     }
 
     .button-add {
+        min-width: none;
         margin-top:30px;
         max-width: 100px;
         padding:5px px;
